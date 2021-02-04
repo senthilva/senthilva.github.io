@@ -1,10 +1,12 @@
 # Understanding the transformer
 
-This blog is to document my understanding of the transformer paper [**Attention is all you need**](https://arxiv.org/pdf/1706.03762.pdf)
+This blog is to document my understanding of the transformer paper [**Attention is all you need**](https://arxiv.org/pdf/1706.03762.pdf). The images are used from the paper.
 
 We will walkthrough the encoder and decoder for translating from English to German.
 
 ## Encoder
+
+![](./images/ED5D51EE-68D6-4BBB-8855-2B0FBB686DF5_4_5005_c.jpeg?raw=true)
 
 Let us consider an English sentence : " The weather is good" . The following steps are followed in the encoder
 
@@ -27,6 +29,9 @@ Let us consider an English sentence : " The weather is good" . The following ste
 
 
 ## Decoder
+
+
+![](images/3F9D96FC-1F72-4233-9C2D-C3B7661B48D3_4_5005_c.jpeg)
 
 Works very similar to encoder with some key differences
 
