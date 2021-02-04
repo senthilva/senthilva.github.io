@@ -38,7 +38,7 @@ Works very similar to encoder with some key differences
   - Keys **K** : for self attention keys are also the german word embeddings
   - Values **V** : for self attention keys are also the german word embeddings
 - The self attention output is added with the skip connections of the input and normalized.
-- **attention with ancoder** 
+- **attention with encoder** 
   - Queries **Q** : each incoming germna embedding is treated as a query.  
   - Keys **K** : **here the keys are encoder ouputs**
   - Values **V** : **here the keys are encoder ouputs**
