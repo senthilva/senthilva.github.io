@@ -1,6 +1,6 @@
 # Understanding the transformer
 
-This blog is to walk through the transformer paper [**Attention is all you need**](https://arxiv.org/pdf/1706.03762.pdf)
+This blog is to document my understanding of the transformer paper [**Attention is all you need**](https://arxiv.org/pdf/1706.03762.pdf)
 
 We will walkthrough the encoder and decoder for translating from English to German.
 
@@ -49,6 +49,8 @@ Works very similar to encoder with some key differences
 This is repeated **N**times based on how the network is designed. The final output is then sent to fully connected network and softmax for predicting the probable german word !
 
 ## Training
+
+The gold data is used to calculate the loss of the final decoder which is then used in back propogation to train the decoder and encoder.
 
 
 
